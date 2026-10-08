@@ -1,0 +1,26 @@
+[project]
+name = "ai-tryon-agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "langchain-openai>=1.6.0",
+    "langgraph>=1.2.11",
+    "langgraph-checkpoint-postgres>=3.1.2",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "onnxruntime>=1.29.0",
+    "oss2>=2.19.1",
+    "pillow>=12.3.0",
+    "psycopg[binary,pool]>=3.3.5",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
+    "rembg>=2.0.83",
+    "uvicorn>=0.52.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

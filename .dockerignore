@@ -1,0 +1,12 @@
+.env
+.git
+.venv
+.uv-cache
+.uv-python
+__pycache__
+.pytest_cache
+*.pyc
+data
+frontend/node_modules
+frontend/dist
+vendor/shop-tryon-skill/scripts/.env

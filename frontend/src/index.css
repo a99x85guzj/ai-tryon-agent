@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+:root { font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; color-scheme: light; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }

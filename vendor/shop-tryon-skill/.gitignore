@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files (keep example only)
+.env
+scripts/.env
+!.env.example
+!scripts/.env.example
+
+# Build / runtime artifacts
+*.log
+logs/
+tmp/
+temp/
+
+# Local output artifacts
+tryon_output/
+output/
+outputs/
+task_*/
+
+# IDE
+.idea/
